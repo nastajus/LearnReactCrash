@@ -6,6 +6,8 @@ class App extends Component {
 
   constructor(){
     super();
+
+    // we don't actually want to set the data here.
     this.state = {
       projects: [
         {
