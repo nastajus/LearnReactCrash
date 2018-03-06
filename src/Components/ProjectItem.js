@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class ProjectItem extends Component {
+
   render() {
     return (
       <li className="Project">
@@ -8,6 +9,7 @@ class ProjectItem extends Component {
       </li>
     );
   }
+
 }
 
 export default ProjectItem;
