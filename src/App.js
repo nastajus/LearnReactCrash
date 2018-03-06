@@ -24,14 +24,18 @@ class App extends Component {
         }
       ]
     }
+    this.state.hey = { "things" : "more things"};
+    this.state.hoy = { yo: 'oh oy ow' };
+    // INVALID: this.state.okso.more.asdf = {"1" : "1" };
+    // INVALID: this.state.oksoo.moree.asdff = "1" ;
   }
 
   render() {
     return (
       <div className="App">
         My App
-        //<Projects test="hello world"/>
-        <Projects projects={this.state.projects}/>
+        <Projects test="hello world"/>
+        <Projects projects={this.state.projects} hey={this.state.hey}/>
       </div>
     );
   }
